@@ -4,8 +4,8 @@ function project(){
 
 function hire(){
     var email = "masizaid10@gmail.com";
-            var subject = "Hire Me";
-            var body = "Hi there,%0A%0AI am interested in hiring you.%0A%0AThanks!";
+            var subject = "Hire ";
+            var body = "Hi there,I am interested in hiring you.Thanks!";
             var mailtoLink = "mailto:" + email + "?subject=" + encodeURIComponent(subject) + "&body=" + encodeURIComponent(body);
             
             window.location.href = mailtoLink;
